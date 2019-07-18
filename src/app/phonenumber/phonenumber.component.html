@@ -1,0 +1,116 @@
+<div  class="container-fluid">
+        <div class="jumbotron jumbotron-fluid" style="height: 725px;background-color: white;">
+          <div class="container">
+      
+            
+              <nav class="navbar navbar-expand-sm " style="background-color: #34aa95;">
+                  <!-- Brand/logo -->
+                  <a class="navbar-brand" style="margin-left:17;text-align: left;position: absolute;">WM</a>
+                  
+                </nav>
+
+                <div class="col-lg-12">
+            
+                        <div class="col-md-6">
+                        <span class="brandtitle">
+                  
+                         <p>Welcome to Windmill</p>
+             
+                        </span>
+             
+                       <span class="brandimg"></span>
+             
+                     
+                      </div><!---col-md-6-->
+
+
+
+        <div class="col-md-6">
+
+                        <div class="col-md-6">
+
+                                        <div class="reenteryourpin1">
+        
+                                                        <p>Step 1 of 4 </p>
+                                                                
+                                                        </div><!--step 1 of 4 -->
+                                                        
+                                                        <div class="welcome1">
+                
+                                                        <p>Welcome ! Please Input</p>
+                                                        
+                                                        </div><!---welcome1-->
+                
+                                                        <div class="welcome2">
+                          
+                                                         <p>Your phone Number</p>
+                
+                
+                                                        </div><!--welcome2-->
+                
+                                                        <div class="reenteryourpin2">
+                                                        
+                                                        <p>Input Your Current phone number for complete </p>
+                
+                                                        </div><!--reenter your pin2-->
+                
+                                                        <div class="reenteryourpin3">
+                
+                
+                                                         <p>the registration</p>
+                
+                                                        </div>
+
+
+
+                                                        <div class="phonenumber">
+        
+                                                            <!-- <form action="/action_page.php">
+                                                                <div class="form-group">
+                                                                  <input type="phoneNumber" class="form-control" id="phone number" Placeholder="PhoneNumber">
+                                                                </div>
+                    
+                                                            </form> -->
+            
+                                                            <form [formGroup]="phoneNumberForm" (ngSubmit)="onSubmit()">
+                                                                            <div class="form-group">
+                                                                              <input type="text" formControlName="phonenumber" (ngModel)="phonenumber" class="form-control" Placeholder="phonenumber">
+                                                                            </div>
+                                                                       
+                                                                            <div class="nextbtn">
+                                                                            <button type="submit" class="btn" style="width: 305px;height:55px;background-color: #34aa95; color: white;margin-top: -125px;">Next</button>
+                                                                          </div>
+                                                   <!--  <div class="nextbtn">
+                                                                                     
+                                                    <a routerLink="/inputotp"><button type="submit" class="btn" style="width: 305px;height:55px;background-color: #34aa95; color: white;margin-top: -125px;">Next</button></a>
+                                                     
+                                            </div> -->
+                                            <!---nextbtn-->
+            
+                                                    </form>
+            
+            
+            
+            
+            
+            
+                                             </div><!--form group-->
+            
+                                             </div><!---phonenumber>-->
+            
+
+
+
+                                                        
+                </div><!---col-md-6-->
+
+          </div><!--col-lg-12-->
+
+
+
+
+
+        </div><!---container-fluid-->
+        </div><!----Jumbotron-->
+        </div><!---container-->
+                

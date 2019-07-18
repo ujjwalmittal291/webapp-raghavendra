@@ -1,0 +1,199 @@
+
+.navbar {
+    overflow: hidden;
+    background-color:#34aa95;
+    position: fixed;
+    top: 0;
+    width: 210%;
+    margin-left:-275px;
+    height: 80px;
+  }
+  
+  .navbar a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    position: absolute;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 14px 280px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left:134px;
+  }
+  
+  
+  
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
+
+.navbarskin{
+
+    background-color: #34aa95;
+    height: 80px;
+    
+}
+
+.navfonts{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #FFFFFF;
+    font-style: initial;
+    text-align: left;
+    position: absolute;
+    left: 150px;
+    margin-top: 1px;
+
+}
+
+.pvtcontainer1{
+
+    background-color:#FFFFFF;
+
+}
+
+.brandimg{
+
+      background-image: url('/assets/Image/Jumpinglady.png');
+      background-repeat: no-repeat;
+      position:absolute;
+      width: 404px;
+      height:425px;
+      float: left;
+      padding:0 20px 20px 0;
+      margin-top:142px;
+      margin-left:15px;
+      background-size: cover;
+      
+}
+
+.brandtitle {
+
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    float: left;
+    color: #34aa95;
+    font-size: 30px;
+    text-align: center;
+    margin-top:65px;
+    margin-left:95px;
+    font-style: Bold;
+  
+  }
+
+.login{
+
+    position: absolute;
+    float: left;
+    margin-top: 170px;
+    margin-left: 800px;
+    width:305px;
+    height:55px;
+    border-radius:4px;
+    
+}
+
+.loginbuttontext{
+
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    text-align: center;
+    color:#34aa95;
+    font-style: normal;
+    font-size:18px;
+    margin-left:105px;
+    margin-top: -6px;
+    padding: 20px;
+}
+
+.signup{
+
+    position: absolute;
+    float: left;
+    margin-top: 260px;
+    margin-left: 800px;
+    width:305px;
+    height:55px;
+    background-color:#34aa95;
+    border-radius:4px;
+    
+}
+
+.signupbtntext{
+
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    text-align: center;
+    color:#f2f2f2;
+    font-style: normal;
+    font-size:18px;
+    margin-left:105px;
+    margin-top: -6px;
+    padding: 20px;
+
+}
+
+.socialbtn1{
+
+    position: absolute;
+    float: left;
+    margin-top:440px;
+    margin-left: 810px;
+    width:140px;
+    height:43px;
+    border-radius:4px;
+
+}
+
+.socialbtn2{
+
+    position: absolute;
+    float: left;
+    margin-top:440px;
+    margin-left:960px;
+    width:140px;
+    height:43px;
+    border-radius:4px;
+    
+    
+}
+
+.register {
+
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    text-align: center;
+    color:#fdfdfd;
+    font-style: normal;
+    font-size:10px;
+    margin-left:105px;
+    margin-top: -6px;
+
+   
+
+}
+
+
+.facebook {
+
+   margin-left: -89px;
+   
+}
+
+.facebook1 {
+
+    margin-top: -19px;
+    font-size: 10px;
+}
+
+.google {
+
+    margin-left: -85px;
+}
+
+

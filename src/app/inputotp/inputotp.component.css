@@ -1,0 +1,362 @@
+
+.navbar {
+    overflow: hidden;
+    background-color:#34aa95;
+    position: fixed;
+    top: 0;
+    width: 210%;
+    margin-left:-275px;
+    height: 80px;
+  }
+  
+  .navbar a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    position: absolute;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 14px 280px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left:134px;
+  }
+  
+  
+  
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
+
+.navbarskin{
+
+    background-color: #34aa95;
+    height: 80px;
+    
+}
+
+.navfonts{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #FFFFFF;
+    font-style: initial;
+    text-align: left;
+    position: absolute;
+    left: 150px;
+    margin-top: 1px;
+
+}
+
+.pvtcontainer1{
+
+    background-color:#FFFFFF;
+
+}
+
+.brandimg{
+
+  background-image: url('/assets/Image/Jumpinglady.png');
+  background-repeat: no-repeat;
+  position:absolute;
+  width: 404px;
+  height:425px;
+  float: left;
+  padding:0 20px 20px 0;
+  margin-top:142px;
+  margin-left:15px;
+  background-size: cover;
+  
+}
+
+.brandtitle {
+
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  float: left;
+  color: #34aa95;
+  font-size: 30px;
+  text-align: center;
+  margin-top:65px;
+  margin-left:95px;
+  font-style: Bold;
+
+}
+
+.login{
+
+    position: absolute;
+    float: left;
+    margin-top: 220px;
+    margin-left: 900px;
+    width:305px;
+    height:55px;
+    background-color: #daf0ec;
+    border-radius:4px;
+    
+}
+
+.loginbuttontext{
+
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    text-align: center;
+    color:#34aa95;
+    font-style: normal;
+    font-size:18px;
+    margin-left:105px;
+    margin-top: -6px;
+    padding: 20px;
+}
+
+.signup{
+
+    position: absolute;
+    float: left;
+    margin-top: 360px;
+    right:-515px;
+    width:305px;
+    height:55px;
+    
+    border-radius:4px;
+    height:60px;
+    
+}
+
+.signupbtntext{
+
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    text-align: center;
+    color:#f2f2f2;
+    font-style: normal;
+    font-size:18px;
+    margin-left:105px;
+    margin-top: -6px;
+    padding: 20px;
+
+}
+
+.socialbtn1{
+
+    position: absolute;
+    float: left;
+    margin-top:440px;
+    margin-left: 904px;
+    width:140px;
+    height:43px;
+    background-color:#264d9d;
+    border-radius:4px;
+
+}
+
+.socialbtn2{
+
+    position: absolute;
+    float: left;
+    margin-top:440px;
+    margin-left:1062px;
+    width:140px;
+    height:43px;
+    background-color:#e7260b;
+    border-radius:4px;
+    
+}
+
+.welcome1{
+
+  font-family: 'Times New Roman', Times, serif;
+  color: #333333;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: initial;
+  margin-top:110px;
+  right:-395px;
+  text-align: right;
+  position: absolute;
+  
+
+}
+
+.welcome2{
+
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: initial;
+    margin-top:230px;
+    right:-550px;
+    text-align: right;
+    position: absolute;
+    
+  
+  }
+
+
+
+.reenteryourpin1{
+
+    font-family: 'Times New Roman', Times, serif;
+    color:#cdcdcd;
+    font-size: 15px;
+    font-weight:normal;
+    font-style: initial;
+    margin-top: 90px;
+    right:-300px;
+    text-align: right;
+    position: absolute;
+    
+  
+  }
+
+  .reenteryourpin2{
+
+    font-family: 'Times New Roman', Times, serif;
+    color:#cdcdcd;
+    font-size: 15px;
+    font-weight:normal;
+    font-style: initial;
+    margin-top:175px;
+    right:-460px;
+    text-align: right;
+    position: absolute;
+    
+  
+  }
+
+  .reenteryourpin3{
+
+    font-family: 'Times New Roman', Times, serif;
+    color:#cdcdcd;
+    font-size: 15px;
+    font-weight:normal;
+    font-style: initial;
+    margin-top:200px;
+    right:-315px;
+    text-align: right;
+    position: absolute;
+    
+}
+
+.pinbox1{
+
+  width: 10%;
+  margin-top:240px;
+  right:-470px;
+  text-align: right;
+  position: absolute;
+
+
+}
+
+.pinbox2{
+
+    width: 10%;
+    margin-top:240px;
+    right:-410px;
+    text-align: right;
+    position: absolute;
+  
+  
+  }
+
+  .pinbox3{
+
+    width: 10%;
+    margin-top:240px;
+    right:-350px;
+    text-align: right;
+    position: absolute;
+  
+  
+  }
+
+  .pinbox4{
+
+    width:2%;
+    margin-top:240px;
+    right:-290px;
+    text-align: right;
+    position: absolute;
+  
+  
+  }
+  
+  .pinbox5{
+
+    width: 5%;
+    margin-top:350px;
+    right:360px;
+    text-align: right;
+    position: absolute;
+  
+  
+  }
+
+  .pinbox6{
+
+    width: 5%;
+    margin-top:350px;
+    right:420px;
+    text-align: right;
+    position: absolute;
+  
+  
+  }
+
+  .nextbtn{
+
+        position: absolute;
+        float: left;
+        margin-top: 465px;
+        right: -550px;
+        width:305px;
+        height:55px;
+        background-color:#34aa95;
+        border-radius:4px;
+        
+    
+}
+
+
+.nextbtntxt{
+
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    text-align: center;
+    color:#f2f2f2;
+    font-style: normal;
+    font-size:18px;
+    margin-left:105px;
+    margin-top: -6px;
+    padding: 20px;
+
+}
+
+
+.phonenumber{
+
+
+   width:55%;
+   margin-top:200px;
+   right: 145px;
+    margin-top:400px;
+    right:-550px;
+    text-align: right;
+    position: absolute;
+    height:80%;
+
+}
+
+
+  
+  
+
+
+
+
+
